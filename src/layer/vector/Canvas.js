@@ -305,6 +305,13 @@ export var Canvas = Renderer.extend({
 			ctx.scale(1, s);
 		}
 
+        var options = layer.options;
+        if (options.globalCompositeOperation) {
+            ctx.globalCompositeOperation = 'destination-out';
+        } else {
+            ctx.globalCompositeOperation = 'source-over';
+        }
+
 		ctx.beginPath();
 		ctx.arc(p.x, p.y / s, r, 0, Math.PI * 2, false);
 

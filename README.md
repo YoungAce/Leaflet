@@ -18,6 +18,8 @@ If you want to **get involved** with Leaflet development, check out the [contrib
 Let's make the best mapping library that will ever exist,
 and push the limits of what's possible with online maps!
 
+Please support the original version [Leaflet]
+
 [![Build Status](https://travis-ci.org/Leaflet/Leaflet.svg?branch=master)](https://travis-ci.org/Leaflet/Leaflet)
 
  [contributors]: https://github.com/Leaflet/Leaflet/graphs/contributors
@@ -29,4 +31,5 @@ and push the limits of what's possible with online maps!
  [contribute]: https://github.com/Leaflet/Leaflet/blob/master/CONTRIBUTING.md "A guide to contributing to Leaflet"
  [official website]: http://leafletjs.com
  [download page]: http://leafletjs.com/download.html
+ [Leaflet]: https://www.npmjs.com/package/leaflet
 
